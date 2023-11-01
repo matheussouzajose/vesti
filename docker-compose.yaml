@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: app-hub
+    volumes:
+      - .:/var/www
+      - ./.docker/php/custom.ini:/usr/local/etc/php/conf.d/custom.ini
+
+  nginx:
+    build: .docker/nginx
+    container_name: nginx-hub
+    restart: always
+    tty: true
+    ports:
+      - "8000:80"
+    volumes:
+      - .:/var/www
+    extra_hosts:
+      - "host.docker.internal:172.17.0.1"
