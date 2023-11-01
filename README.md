@@ -26,9 +26,9 @@ Importante:
 ### Funcionalidades:
 - **[POST] - [Cadastrar Produtos]** http://localhost:8000/api/v1/products/{companyId}
 
-Obs: Será necessário para no Header o `ApiKey: Token` e no parâmetro o `id` da empresa.
-Infelizmente, a tentativa de realizar o teste de cadastro na API da Vesti não foi bem-sucedida devido a problemas com 
-as credenciais fornecidas. No entanto, a aplicação está totalmente preparada para integrar-se à API utilizando as credenciais adequadas.
+Obs: Será necessário passar no Header o `ApiKey: Token` e no parâmetro o `id` da empresa.
+Infelizmente, a tentativa de realizar o teste de cadastro na API da Vesti não foi bem-sucedida devido a falta das
+credenciais. No entanto, a aplicação está totalmente preparada para integrar-se à API utilizando as credenciais adequadas.
 
 ### Testes:
 - Testes automatizados para garantir a qualidade do código e o funcionamento adequado do aplicativo.
