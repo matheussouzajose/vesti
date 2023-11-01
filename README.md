@@ -5,7 +5,7 @@ suas informações no Vesti também através de API’s.
 
 ### Tecnologias Utilizadas:
 - **Docker:** Docker foi selecionado para containerizar o aplicativo, o que permite um ambiente de desenvolvimento isolado.
-- **Nginx:** Nginx foi selecionado como um proxy reverso para direcionar solicitações HTTP para o aplicativo Laravel.
+- **Nginx:** Nginx foi selecionado como um proxy reverso para direcionar solicitações HTTP para o aplicativo.
 - **Slim:** Slim foi selecionado para construir uma Api devido à sua facilidade de uso.
 
 ### Clean Architecture:
